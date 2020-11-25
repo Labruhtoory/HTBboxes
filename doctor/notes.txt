@@ -57,11 +57,13 @@ backup:10.10.14.4 - - [05/Sep/2020:11:17:34 +2000] "POST /reset_password?email=G
 
 						privesc
 
-*pimp shell first of all
+*pimp shell if not already
 
 *spin up SimpleHTTPServer
 
+(on target)
 
+*wget from server
 
 *linpeas 
 
@@ -72,6 +74,9 @@ https://github.com/cnotin/SplunkWhisperer2.git
 
 
 *edit ip and ports accordinly
+
+
+nc -nlvp 4321
 
 ./short.sh
 
