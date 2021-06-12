@@ -2,4 +2,5 @@
 
 Notes 4 HTB rooms
 
-I just made this repo so I can easily access my HTB notes more easily across my devices.
+I mostly just made this repo to help develop organization, notetaking, and reporting over time.
+This also helps to easily access my HTB notes more easily across all machines and VMs.
